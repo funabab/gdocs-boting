@@ -1,0 +1,16 @@
+{
+  "name": "gdocs-boting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "puppeteer-core": "^13.0.1"
+  }
+}
