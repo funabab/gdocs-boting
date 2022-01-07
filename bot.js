@@ -31,7 +31,7 @@ pt.launch({
         waitUntil: 'domcontentloaded',
       })
 
-      await page.waitForTimeout(2000)
+      await page.waitForSelector('input[type="email"]:not([disabled])')
 
       const inputEmail = await page.$(
         `input[type="email"].exportInput:nth-of-type(1)`
